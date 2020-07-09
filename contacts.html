@@ -10,52 +10,61 @@
 
 <body>
 
-    <div class="top">
-        <div class="conteiner top__box">
-            <ul class="header">
+    <div class="top_contact">
+        <div class="top__contact_box">
+            <ul class="header header_contact">
                 <li><a href=" index.html"><img src="img/logo.svg" alt="logo"> </a></li>
                 <li> <a href="contacts.html"><img src="img/contacts.svg" alt="contacts"></a></li>
             </ul>
-            <div class="top_info">
-                <h1 class="top_heading">New Automation Tool for Your </h1>
-                <p class="text top__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus
-                    tristique vulputate ultrices ut mauris tellus at. Posuere sollicitudin odio tellus elit.
+            <div class="top_contact_info">
+                <h1 class="heading_2 contact_heading">Contact Us</h1>
+                <p class="text text__top_contact">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
                 </p>
-                <a href="#" class="top__button">See Our Project</a>
             </div>
         </div>
     </div>
 
-    <div class="contact_content conteiner">
+    <div class="contact_content">
         <div class="contact">
-            <img src="img/photo.png" alt="photo" class="img">
-            <h4 class="contact_heading">Adress</h4>
-            <p class="contact_text">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
-            <h4 class="contact_heading">Phone</h4>
-            <ul class="list_contact">
-                <li> <img src="img/Vectorphone.svg" alt="phone" class="phone"> 111-111-111</li>
-                <li> <img src="img/Vectorphone.svg" alt="phone" class="phone"> 222-222-222</li>
-            </ul>
-            <h4 class="contact_heading">Online service</h4>
-            <ul class="list_contact">
-                <li><a href="index.html">Наш сайт</a></li>
-                <li><a href="mailto:mail@mail.ru">Напишите нам письмо</a> </li>
-            </ul>
+            <img class="img_contact_block" src="img/contact_block.svg" alt="contact_block">
+            <div class="block__contact">
+
+                <h4 class="heading_4 heading_contact">Adress</h4>
+                <p class="text contact_text">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            </div>
+            <div class="block__contact">
+                <h4 class="heading_4 heading_contact">Phone</h4>
+                <ul class="list_contact">
+                    <li> <img src="img/Vectorphone.svg" alt="phone" class="icon"> 111-111-111</li>
+                    <li> <img src="img/Vectorphone.svg" alt="phone" class="icon"> 222-222-222</li>
+                </ul>
+            </div>
+            <div class="block__contact">
+
+                <h4 class="heading_4 heading_contact">Online service</h4>
+                <ul class="list_contact">
+                    <li><img src="img/site.svg" alt="site" class="icon"><a href="index.html">Наш сайт</a></li>
+                    <li><img src="img/email.svg" alt="email" class="icon"><a href="mailto:mail@mail.ru">Напишите нам
+                            письмо</a> </li>
+                </ul>
+            </div>
         </div>
-        <div class="content_form">
-            <h4 class="heading_4">Send us message</h4>
+        <div class="content_form ">
+            <h4 class="heading_4 heading_contact_form" heading_contact>Send us message</h4>
             <form action="#" class="form">
-                <label for="full_name">Full Name</label>
+                <label for="full_name" class="label__text">Full Name</label>
                 <input id="full_name" class="form_input" type="text" placeholder="Petrov Petr Petrovich">
-                <label for="email"> Your email </label>
+                <label for="email" class="label__text"> Your email </label>
                 <input id="email" class="form_input" type="email" placeholder="mail@mail.ru">
-                <label for="message">Message</label>
+                <label for="message" class="label__text">Message</label>
                 <textarea id="message" class="form_input" cols="50" rows="3" placeholder="Message"></textarea>
 
                 <button class="button" type="submit">Submit</button>
             </form>
         </div>
-        <br>
+
 
     </div>
     <div class="map_wrap">
@@ -64,25 +73,35 @@
             width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
             tabindex="0"></iframe>
     </div>
-    <div class="footer conteiner">
-        <div class="footer_block_top">
-            <h3 class="footer_heading">Заголовок подвала страницы</h3>
-            <p class="footer_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nam.</p>
+
+    <div class="footer">
+        <div class="footer__block">
+            <div class="footer_block_top">
+                <h3 class="heading_3 footer_heading">Intersted to woek
+                    with our team?</h3>
+                <p class=" text footer_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            </div>
+            <div class="block__bottom_button">
+                <a href="#" class="bottom_button ">Let’s Talk</a>
+            </div>
         </div>
-        <hr>
+        <hr class="line">
+
         <div class="footer_block_bottom">
             <ul class="footer_list">
-                <li>Lorem ipsum dolor sit amet.</li>
-                <li>(495) 555-55-55</li>
-                <li>mail@mail.ru</li>
+                <li>A. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>T. (495) 555-55-55</li>
+                <li>E. mail@mail.ru</li>
             </ul>
             <div class="copyright">
-                <p class="text">Все права защищены &copy;</p>
+                <p class="text text_copyright">2020 All rights reserved. &copy;</p>
             </div>
         </div>
     </div>
 
-    </div>
+
 </body>
 
 </html>
